@@ -7,7 +7,7 @@ class ApiURL {
   static const String getAllUrls = 'http://10.0.2.2:5000/urls';
 
   //POST API
-  static const String PostRatingURL = 'http://10.0.2.2:4000/ratings';
+  static const String postRatingURL = 'http://10.0.2.2:4000/ratings';
   static const String postQRcodeURL = 'http://10.0.2.2:5000/qr';
   static const String postCompactURL = 'http://10.0.2.2:5000/urls/compact';
   static const String postCompressURL = 'http://10.0.2.2:5000/urls/compress';

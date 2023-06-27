@@ -85,7 +85,7 @@ class RatingsProvider extends ChangeNotifier {
     String? summary,
     String? description,
   }) async {
-    Uri url = Uri.parse(ApiURL.PostRatingURL);
+    Uri url = Uri.parse(ApiURL.postRatingURL);
 
     var headers = {
       'Content-Type': 'application/json',
